@@ -26,8 +26,7 @@ export default function Home() {
           <div className="container mx-auto h-full">
             <div className="flex h-full items-center gap-10">
               <motion.div
-                className="hero-content w-full text-right direction"
-                dir="rtl"
+                className="hero-content w-full"
                 initial={{ opacity: 0, y: 0 }}
                 animate={{
                   opacity: 1,
@@ -38,7 +37,7 @@ export default function Home() {
                   },
                 }}
               >
-                <motion.h2 className="text-[68px] leading-[84px] max-w-xl font-extrabold text-lightTextPrimary dark:text-darkTextPrimary/90 mb-5"
+                <motion.h2 className="text-[68px] leading-[84px] font-extrabold text-lightTextPrimary dark:text-darkTextPrimary/90 mb-5"
                 initial={{ opacity: 0,  y: 6 }}
                 animate={{
                   opacity: 1,
@@ -49,7 +48,7 @@ export default function Home() {
                   },
                 }}
                 transition={{ delay: 0.1 }}>
-                  نظام تشغيل دقيق للشركات في الخليج
+                  A precise operating system for companies in the Gulf
                 </motion.h2>
 
                 <motion.p
@@ -65,7 +64,7 @@ export default function Home() {
                   transition={{ delay: 0.5 }}
                   className="text-lg text-lightTextSecondary dark:text-darkTextSecondary tracking-tight"
                 >
-                  نظام تشغيل ذكي مخصص للشركات في دول مجلس التعاون الخليجي.
+                An intelligent operating system designed for businesses in the GCC countries.
                 </motion.p>
               </motion.div>
 
@@ -89,7 +88,9 @@ export default function Home() {
                   width={400}
                   height={400}
                   priority
+                  className="orb"
                 />
+                 
               </motion.div>
             </div>
           </div>
