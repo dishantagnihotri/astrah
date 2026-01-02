@@ -11,6 +11,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        background: "var(--background)",
+        foreground: "var(--foreground)",
         astrah: {
           // BRAND ACCENTS
           primary: "#00E5FF", // Aqua Neon
